@@ -4,7 +4,8 @@
     width: 20%;
     border-radius: 5px;
     margin-top: 19%;
-    margin-left: 5%;
+    margin-left: -19%;
+    padding-top: 5px 18px;
   }
   
   .aa1card:hover {
@@ -33,7 +34,7 @@
     transition: 0.3s;
     width: 20%;
     border-radius: 5px;
-    margin-top: -22%;
+    margin-top: -62%;
     margin-left: 32%;
   }
   
