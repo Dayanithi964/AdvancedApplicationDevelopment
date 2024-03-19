@@ -9,13 +9,14 @@
     align-items: center;
     box-shadow: 0 0 10px #549ad8;
     border: 2px solid #549ad8;
+    margin-left:  -6%;
   
   }
-  .search-section
+  /* .search-section
   {
     border: 2px solid #549ad8;
     
-  }
+  } */
   
   .navbar a {
     color:black;

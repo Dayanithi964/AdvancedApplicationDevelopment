@@ -1,12 +1,13 @@
 .enquiry-container {
-    max-width: 500px;
-    margin-top: 200px;
+    max-width: 400px;
+    margin-top: 90px;
     margin-left: 400px;
-    padding: 20px;
+    padding: 90PX;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 10px #549ad8;
   border: 1px solid#549ad8;
+  overflow: hidden;
   }
   
   .form-group {

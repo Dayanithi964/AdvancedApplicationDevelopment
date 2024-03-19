@@ -12,7 +12,10 @@
     width: 100%;
     border-collapse: collapse;
   }
-  
+  .makepay
+  {
+    background-color: #007bff;
+  }
   th, td {
     padding: 10px;
     border: 1px solid #ddd;

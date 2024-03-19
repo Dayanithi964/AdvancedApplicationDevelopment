@@ -25,7 +25,7 @@ const Cart = () => {
             <td>6 months</td>
             <td>₹10,000-₹15,000</td>
             <td>
-              <button>Make Payment</button>
+              <button className='makepay'>Make Payment</button>
             </td>
           </tr>
           <tr>
@@ -34,7 +34,7 @@ const Cart = () => {
             <td>3 months</td>
             <td>₹15,000-₹20,000</td>
             <td>
-              <button>Make Payment</button>
+              <button className='makepay'>Make Payment</button>
             </td>
           </tr>
           <tr>
@@ -43,7 +43,7 @@ const Cart = () => {
             <td>4 months</td>
             <td>₹12,000-₹18,000</td>
             <td>
-              <button>Make Payment</button>
+              <button className='makepay'>Make Payment</button>
             </td>
           </tr>
           {/* Add more rows as needed */}
