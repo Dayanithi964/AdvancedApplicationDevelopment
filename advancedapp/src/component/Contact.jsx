@@ -25,25 +25,10 @@ function Contact() {
       </form>
       </div>
       <div className="contact-info">
-        <h3>Contact Information</h3>
-        <ul>
-          <li>
-            <a href="mailto:youremail@example.com">bec@gmail.com</a>
-          </li>
-          <li>
-            <a href="tel:+1234567890">+91 9876543210</a>
-          </li>
-          <li>
-            <address>
-              123 Main Street, Kovaipudur, CBE, 12345
-            </address>
-          </li>
-        </ul>
+        
       </div>
       </div>
-      <div>
-        <Footer/>
-      </div>
+      
     </div>
   );
 }
