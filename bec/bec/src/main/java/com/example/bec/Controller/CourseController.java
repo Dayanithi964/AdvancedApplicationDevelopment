@@ -64,7 +64,6 @@ public class CourseController {
     public ResponseEntity<Void> deleteCourseById(@NonNull @PathVariable Long courseId) {
         courseService.deleteCourseById(courseId);
         return new ResponseEntity<>(HttpStatus.NO_CONTENT);
-        //return ResponseEntity.ok("Deleted!!");
     }
 
    
