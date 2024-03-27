@@ -52,7 +52,7 @@ public class CourseController {
     }
 
     @PutMapping("updateCourse/{courseName}")
-    @PreAuthorize("hasAuthority('ADMIN') or hasAuthority('USER')")
+    @PreAuthorize("hasAuthority('ADMIN')")
     public ResponseEntity<CourseModel> updateCourse(@NonNull @PathVariable String courseName,
             @RequestBody CourseDto courseUpdate) {
         CourseModel updated = courseService.updateCourse(courseName, courseUpdate);
